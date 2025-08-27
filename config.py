@@ -5,9 +5,9 @@ Centralizes all API keys, URLs, and settings
 
 # LLM Server Configuration
 LLM_CONFIG = {
-    "base_url": "https://llm-server.llmhub.t-systems.net/v2",
-    "api_key": "gen-9KZiEHf7VBpajUN5cfGyF4oSLBbzownmpob12gBCTl4kafrT",
-    "model": "claude-sonnet-4",
+    "base_url": "YOUR_LLM_SERVER_URL",
+    "api_key": "LLM_API_KEY",
+    "model": "LLM_MODEL_NAME",
     "max_tokens": 5000,
     "temperature": 0.0,
     "default_max_tokens": 3000,  # Default tokens for generateLLMResponse
@@ -16,8 +16,8 @@ LLM_CONFIG = {
 
 # Google Custom Search Configuration
 GOOGLE_SEARCH_CONFIG = {
-    "api_key": "AIzaSyDryk1uOsEFLiFAJ6yMgpIkHHjDHFMvHJg",
-    "cse_id": "c2626a01866a0441b",
+    "api_key": "GOOGLE_API_KEY",
+    "cse_id": "GOOGLE_CUSTOM_SEARCH_ID",
     "num_results": 5
 }
 

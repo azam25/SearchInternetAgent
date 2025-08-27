@@ -1,0 +1,29 @@
+# SearchInternetAgent Environment Variables
+# Copy this file to .env and fill in your actual values
+# Never commit the .env file to version control!
+
+# LLM Server Configuration
+LLM_BASE_URL=https://your-llm-server.com/v2
+LLM_API_KEY=your_llm_api_key_here
+LLM_MODEL=your_model_name_here
+LLM_MAX_TOKENS=5000
+LLM_TEMPERATURE=0.0
+LLM_DEFAULT_MAX_TOKENS=3000
+LLM_DEFAULT_TEMPERATURE=0.0
+
+# Google Custom Search Configuration
+GOOGLE_SEARCH_API_KEY=your_google_api_key_here
+GOOGLE_SEARCH_CSE_ID=your_search_engine_id_here
+GOOGLE_SEARCH_NUM_RESULTS=5
+
+# Semantic Search Configuration
+SEMANTIC_MODEL=all-MiniLM-L6-v2
+SEMANTIC_TOP_N=15
+
+# Web Scraping Configuration
+SCRAPING_TIMEOUT=5
+SCRAPING_MAX_TEXT_LENGTH=4000
+SCRAPING_CHUNK_SIZE=2000
+SCRAPING_MAX_URLS_TO_PROCESS=5
+SCRAPING_MAX_WORKERS=5
+SCRAPING_INITIAL_SEARCH_RESULTS=10

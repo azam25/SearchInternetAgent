@@ -176,7 +176,12 @@
 
 </div>
 
----
+## 🚀 **Example of this library in RAG Based application**
+
+
+<p align="center">
+  <img src="example.png" alt="Logo" width="800">
+</p>
 
 ## 🚀 **Quick Start**
 
@@ -248,7 +253,7 @@ answer, context = SearchAgent("Machine learning applications", "deepSearch", "bo
 #### **Step 1: Clone Repository**
 
 ```bash
-git clone https://github.com/yourusername/SearchInternetAgent.git
+git clone https://github.com/azam25/SearchInternetAgent.git
 cd SearchInternetAgent
 ```
 
@@ -383,7 +388,7 @@ export GOOGLE_SEARCH_ENGINE_ID="your_search_engine_id"
 LLM_CONFIG = {
     "base_url": "https://api.openai.com/v1",
     "api_key": "your_api_key",
-    "model": "claude-3-5-sonnet-v2",
+    "model": "MODEL_NAME",
     "max_tokens": 4000,
     "temperature": 0.7
 }
